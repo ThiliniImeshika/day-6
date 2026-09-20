@@ -74,12 +74,40 @@ console.log(document.title);
     
 // }
 
-function changeHeading(){
-    let txtInput = document.getElementById("inputText");
-    //txtInput.value = "Thilini";
-    console.log(txtInput.value);
+function btnSumOnAction01(){
 
-   let heading =document.getElementById("heading");
-   heading.innerText=txtInput.value;
+
+    let n1 =document.getElementById("inputText01").value;
+    let n2 =document.getElementById("inputText02").value;
+
+    //we should convert this to number
+    //let sum =n1 + n2;
+
+    let sum=parseInt(n1) + parseInt(n2);
+
+    console.log(n1);
+    console.log(n2);
+    console.log(sum);
+
+    document.getElementById("heading").innerText="sum:" +sum;
+
+}
+
+function btnSumOnAction02(){
+    console.log("hii");
+
+    let n1 =document.getElementById("inputText01").value;
+    let n2 =document.getElementById("inputText02").value;
+
+    //we should convert this to number
+    //let sum =n1 + n2;
+
+    let minus=parseInt(n1) - parseInt(n2);
+
+    console.log(n1);
+    console.log(n2);
+    console.log(minus);
+
+    document.getElementById("heading").innerText="minus:" +minus;
 
 }
