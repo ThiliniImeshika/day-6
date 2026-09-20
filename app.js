@@ -63,13 +63,23 @@ console.log(document.title);
 //     heading.innerText="Imeshika" + i;
 // }
 
-let number = 0;
-function increasevalue(){
-  heading.innerText ="Thilini" + ++number;
-    console.log("Clicked");
+// let number = 0;
+// function increasevalue(){
+//   heading.innerText ="Thilini" + ++number;
+//     console.log("Clicked");
     
-}
-function decreasevalue(){
-  heading.innerText ="Thilini" + --number;
+// }
+// function decreasevalue(){
+//   heading.innerText ="Thilini" + --number;
     
+// }
+
+function changeHeading(){
+    let txtInput = document.getElementById("inputText");
+    //txtInput.value = "Thilini";
+    console.log(txtInput.value);
+
+   let heading =document.getElementById("heading");
+   heading.innerText=txtInput.value;
+
 }
