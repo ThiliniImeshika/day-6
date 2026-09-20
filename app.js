@@ -15,7 +15,7 @@ let customer={
 }
 
 //to access fathers properties
-console.log(customer.father.age);
+// console.log(customer.father.age);
 
 
 
@@ -40,4 +40,20 @@ let customer2={
     ]
 }
 
-console.log(customer2.items[1].id);
+// console.log(customer2.items[1].id);
+
+
+
+//DOM Manipulations(Document Object Model)
+
+
+// document.write("<h2>hello world o2</h2>");
+console.log(document.title);
+//this is dom manipulation
+
+let heading = document.getElementById("heading");
+
+//change the properties of the heading
+heading.innerText="Thilini";
+
+console.log(heading);
