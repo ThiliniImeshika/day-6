@@ -65,11 +65,11 @@ console.log(document.title);
 
 let number = 0;
 function increasevalue(){
-  heading.innerText ="Thilini" + number++;
+  heading.innerText ="Thilini" + ++number;
     console.log("Clicked");
     
 }
 function decreasevalue(){
-  heading.innerText ="Thilini" + number--;
+  heading.innerText ="Thilini" + --number;
     
 }
