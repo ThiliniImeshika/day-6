@@ -54,6 +54,11 @@ console.log(document.title);
 let heading = document.getElementById("heading");
 
 //change the properties of the heading
-heading.innerText="Thilini";
+
 
 console.log(heading);
+
+function myFunction(){
+    console.log("button clicked");
+    heading.innerText="Imeshika";
+}
