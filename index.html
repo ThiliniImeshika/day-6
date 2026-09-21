@@ -6,25 +6,30 @@
     <title>ICET</title>
 </head>
 <body>
+
+    <h1>Customer Manager</h1>
    
-    <input type="text" placeholder="Enter number 01" id="inputText01">
+    <input type="text" placeholder="name" id="txtName">
+    <input type="text" placeholder="age" id="txtAge">
+    <input type="text" placeholder="address" id="txtAddress">
+    <input type="text" placeholder="email" id="txtEmail">
+    <input type="text" placeholder="salary" id="txtSalary">
 
-    <input type="text" placeholder="Enter number 02" id="inputText02">
+    <!-- Added parentheses () to the function call -->
+    <input type="button" value="add customer" onclick="btnAddCustomerOnAction()">
 
-     <h1 id="heading">OUT PUT</h1>
+    <table border="1" id="tblCustomers">
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Address</td>
+            <td>Email</td>
+            <td>Salary</td>
+        </tr>
+    </table>
 
-     <!-- button -->
-<input type="button" value="+" onclick="btnSumOnAction01()">
-<input type="button" value="-" onclick="btnSumOnAction02()">
-
-     
-
-    <!-- <input type="button" value="click me" onclick="increasevalue()">
-    <input type="button" value="click me" onclick="decreasevalue()"> -->
-
-
-a
-     <!-- dont write enything under scripts -->
+    <input type="button" value="Load Table" onCle="loadTable";
+    
     <script src="app.js"></script>
 </body>
 </html>
